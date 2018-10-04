@@ -1,0 +1,36 @@
+body {
+  background-color: #fdf6e3;
+}
+header, footer {
+  font-size: 1.5rem;
+}
+nav.ul {
+  font-family: sans-serif;
+}
+h1.logo {
+  text-transform: uppercase;
+}
+main.wrapper {
+  background-color: #eee8d5;
+}
+ul.contents, ul.favs, ul.facts, ul.types {
+  color: #93a1a1;
+}
+div.strong {
+  background-color: #b58900;
+  strong {
+    color: #fff;
+  }
+}
+a {
+  background-color: #719e07;
+}
+ul.link.external {
+  background-color: #2694d8;
+}
+ol.li-1 {
+  background-color: #719e47;
+}
+ol.li-3 {
+  background-color: #2aa198;
+}
