@@ -28,9 +28,18 @@ a {
 ul.link.external {
   background-color: #2694d8;
 }
-ol.li-1 {
+ol li:first-child {
   background-color: #719e47;
 }
-ol.li-3 {
+ol li:last-child {
   background-color: #2aa198;
+}
+li.types:odd {
+  background-color: #657ba3;
+}
+li.types:even {
+  background-color: #586e75;
+}
+li.types:nth-child(3n+3) {
+  color: #d04b16;
 }
