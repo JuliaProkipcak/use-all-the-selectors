@@ -1,45 +1,58 @@
 body {
   background-color: #fdf6e3;
 }
+
 header, footer {
   font-size: 1.5rem;
 }
-nav.ul {
+
+nav {
   font-family: sans-serif;
 }
+
 h1.logo {
   text-transform: uppercase;
 }
+
 main.wrapper {
   background-color: #eee8d5;
 }
-ul.contents, ul.favs, ul.facts, ul.types {
+
+#contents, #favs, #facts, #types {
   color: #93a1a1;
 }
-div.strong {
+
+.wrapper < dfn {
   background-color: #b58900;
   strong {
     color: #fff;
   }
+
 }
-a {
+nav a:not(.no-highlight) {
   background-color: #719e07;
 }
+
 ul.link.external {
   background-color: #2694d8;
 }
+
 ol li:first-child {
   background-color: #719e47;
 }
+
 ol li:last-child {
   background-color: #2aa198;
 }
-li.types:odd {
+
+li.types:nth-child(odd) {
   background-color: #657ba3;
 }
-li.types:even {
+
+li.types:nth-child(even) {
   background-color: #586e75;
 }
-li.types:nth-child(3n+3) {
-  color: #d04b16;
+
+li.types:nth-child(3n) {
+  background-color: #d04b16;
 }
